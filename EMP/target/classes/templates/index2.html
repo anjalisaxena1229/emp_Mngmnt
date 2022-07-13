@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+ <meta charset="utf-8">
+   
+<meta charset="ISO-8859-1">
+<title >Employee Management Portal</title>
+<link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous">
+</head>
+
+
+<body style="background-image: url('/images/brandi-redd-aJTiW00qqtI-unsplash.jpg'); background-size:90% 90%; height:500px;">
+
+
+<h1 ><font face="cursive"><center>Employee Management System</center></font></h5> <td>
+<br>
+<br>
+
+<div class="feature-sec-home">
+    <div class="container">
+      <div class="feature-holder">
+        <h2 class="site-heading text-center">Manage and view the employees on a go</h2>
+		<div style="text-align:center;">Faster and Simpler</div><br><br><br><br>
+		
+        <div class="row">
+          <div class="col-md-4">
+            <div class="feature-box">
+              <a th:href = "@{/login}" class="btn btn-primary btn-sm mb-3">  view or manage employees </a>
+              <p>Add, Delete,Update the data</p>
+              
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="feature-box">
+               <a th:href = "@{/seeList}" class="btn btn-primary btn-sm mb-3">Employee's List </a>
+              <p>see who works in organization</p>
+          </div>
+          </div>
+          
+           <div class="col-md-4">
+            <div class="feature-box">
+               <a th:href = "@{/showRegister}" class="btn btn-danger btn-sm mb-3">New user? </a>
+              <p>Register yourself</p>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   
+           
+
+
+
+
+
+
+
+
+</body>
+</html>

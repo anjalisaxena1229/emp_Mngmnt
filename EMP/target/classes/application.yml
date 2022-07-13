@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: Spring
+    url: 'jdbc:sqlserver://localhost;databaseName=Sample;trustServerCertificate=true'
+    password: Anjali123
+  jpa:
+    generate-ddl: 'true'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+    hibernate:
+      ddl-auto: update
+      
